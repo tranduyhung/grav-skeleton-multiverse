@@ -15,6 +15,10 @@ git:
         url: https://github.com/getgrav/grav-plugin-form
         path: user/plugins/form
         branch: master
+    multiverse:
+        url: https://github.com/tranduyhung/grav-theme-multiverse
+        path: user/themes/multiverse
+        branch: master
 links:
     error:
         src: grav-plugin-error
@@ -31,4 +35,8 @@ links:
     form:
         src: grav-plugin-form
         path: user/plugins/form
+        scm: github
+    multiverse:
+        src: grav-theme-multiverse
+        path: user/themes/multiverse
         scm: github
